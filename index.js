@@ -17,4 +17,5 @@ function generatePassword() {
 function displayPassword() {
     passwordOne.textContent = generatePassword()
     passwordTwo.textContent = generatePassword()
+    console.log("Generated passwords!!")
 }
